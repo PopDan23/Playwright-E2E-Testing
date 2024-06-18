@@ -13,8 +13,14 @@ A repo with Playwright E2E Testing for a platform (for example Roblox) where i w
     #/***************************************************/
 -->
 ---
+****WORK IN PROGRESS - version 1.1 ****
+- [x] Read me done
+- [ ] Improve read me with relevant info
+- [ ] Add Playwright dependencies
+- [ ] Start Adding Tests for E2E
+- [ ] Brainstorm different ideeas
+- [ ] Everything is done :tada:
 
-**WORK IN PROGRESS - version 1 **
 
 # 💻 Test Automation Framework | WEB 
 
@@ -25,7 +31,9 @@ A repo with Playwright E2E Testing for a platform (for example Roblox) where i w
 
 
 ## 📑 Table of Contents
-<!-- # - [Video Tutorial](#video-tutorial) -->
+<!-- # - [Video Tutorial](#video-tutorial) 
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#relative-links
+-->
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
@@ -40,8 +48,22 @@ A repo with Playwright E2E Testing for a platform (for example Roblox) where i w
 - [Technical Documents](#technical-documents)
 - [Contacts](#contacts)
 -->
+### Install dependencies
 
-## 📖 Introduction
+Start by cloning the repo and installing the dependencies:
+
+```bash
+npm install
+```
+
+Use the [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) to run the tests in the tests folder from VS Code or run the following command in the terminal:
+
+```bash
+npx playwright test --ui
+```
+
+
+## 📖 Introduction #Introduction 
 This repository contains a Test Automation Framework built using Playwright and Javascript for automated testing of web applications.
 
 <!-- ## 🎥 Video Tutorial
@@ -52,7 +74,6 @@ Click on the image above to watch the tutorials. -->
 
 ## 🛠️ Prerequisites
 - [Prettier](https://prettier.io/)
-
 - [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/) (v18.16.1 or higher recommended)
 - [![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/) (v9.5.1 or higher recommended)
 
@@ -120,4 +141,4 @@ Playwright
 -->
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/popescu-dan-a21306221/)
 
-  
+  [Back to top](##Table of Contents)
